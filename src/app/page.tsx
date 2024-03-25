@@ -8,9 +8,9 @@ export default function Home() {
   return (
     <>
       <head>
-        <head>
-          <link rel="icon" href={logo.src} />
-        </head>
+
+        <link rel="icon" href={logo.src} />
+
       </head>
       <body className="">
         <div className="fixed w-full">
