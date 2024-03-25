@@ -1,25 +1,20 @@
 import { Herosec } from "@/components/herosec";
 import { Navbar } from "@/components/navbar";
-import Image from "next/image";
-import logo from "@/../public/log.png";
+import logo from "../../public/logo.png";
 
 
 export default function Home() {
   return (
     <>
       <head>
-
         <link rel="icon" href={logo.src} />
-
       </head>
-      <body className="">
+      <body>
         <div className="fixed w-full">
           <Navbar />
         </div>
-
         <Herosec />
       </body>
-
     </>
   );
 }

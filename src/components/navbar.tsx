@@ -1,7 +1,7 @@
 'use client'
 import Image from 'next/image';
 import React, { useState } from 'react';
-import logo from '@/../public/log.png'; // Make sure this path is correct
+import logo from '@/../public/logo.png'; // Make sure this path is correct
 import Link from 'next/link';
 import { Menu, X } from 'lucide-react'; // Importing Lucide icons
 
