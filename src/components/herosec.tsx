@@ -15,6 +15,9 @@ export const Herosec = () => {
                         <h1 className='text-5xl font-bold'>
                             Coming <span className='bg-black text-white'>Soon</span>
                         </h1>
+                        <p className='text-base max-w-2xl mt-5'>
+                            Shape Your Future, Daily: Engage in Focus Sessions, Learn from Experts, and More. Tools to Help You Focus on What Matters Most to You.
+                        </p>
                         <div className='flex flex-row py-4 '>
                             <Link target='_black' href='https://7xpfl4akzfq.typeform.com/to/FQpowPzY'>
                                 <button className='px-5 py-1 border border-black flex flex-row gap-x-1 hover:border-white hover:text-white hover:bg-black'>
