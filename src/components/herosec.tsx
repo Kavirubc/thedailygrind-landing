@@ -8,15 +8,15 @@ export const Herosec = () => {
             <div className='max-w-4xl'>
                 <div className='flex flex-row items-center'>
                     <div className='w-1/2'>
-                        <Image src={hero} alt='Hero' />
+                        <Image className='rounded-xl shadow-lg' src={hero} alt='Hero' />
                     </div>
                     <div className='ml-10'>
-                        <h1 className='text-6xl font-bold'>
-                            Join waitlist now
+                        <h1 className='text-5xl font-bold'>
+                            Coming <span className='bg-black text-white'>Soon</span>
                         </h1>
-                        <div>
-                            <button className='px-6 py-2 border border-black mt-10 flex flex-row gap-x-1'>
-                                Join <IconArrowUpRight />
+                        <div className='flex flex-row py-4 '>
+                            <button className='px-5 py-1 border border-black flex flex-row gap-x-1 hover:border-white hover:text-white hover:bg-black'>
+                                Join waitlist <IconArrowUpRight />
                             </button>
                         </div>
                     </div>
