@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import hero from '@/../public/hero1.png'
-
+import { IconArrowUpRight } from "@tabler/icons-react";
 export const Herosec = () => {
     return (
         <main className='flex flex-col min-h-screen justify-center items-center align-middle content-center'>
@@ -15,8 +15,8 @@ export const Herosec = () => {
                             Join waitlist now
                         </h1>
                         <div>
-                            <button className='px-6 py-2 border border-black mt-10 '>
-                                Join
+                            <button className='px-6 py-2 border border-black mt-10 flex flex-row gap-x-1'>
+                                Join <IconArrowUpRight />
                             </button>
                         </div>
                     </div>
