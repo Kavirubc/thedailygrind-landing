@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import hero from '@/../public/hero1.png'
 import { IconArrowUpRight } from "@tabler/icons-react";
+import Link from 'next/link';
 export const Herosec = () => {
     return (
         <main className='flex flex-col min-h-screen justify-center items-center align-middle content-center'>
@@ -15,9 +16,11 @@ export const Herosec = () => {
                             Coming <span className='bg-black text-white'>Soon</span>
                         </h1>
                         <div className='flex flex-row py-4 '>
-                            <button className='px-5 py-1 border border-black flex flex-row gap-x-1 hover:border-white hover:text-white hover:bg-black'>
-                                Join waitlist <IconArrowUpRight />
-                            </button>
+                            <Link target='_black' href='https://7xpfl4akzfq.typeform.com/to/FQpowPzY'>
+                                <button className='px-5 py-1 border border-black flex flex-row gap-x-1 hover:border-white hover:text-white hover:bg-black'>
+                                    Join waitlist <IconArrowUpRight />
+                                </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
