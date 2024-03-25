@@ -11,9 +11,6 @@ export const Navbar = () => {
                 <div className='px-16 flex flex-row justify-between'>
                     <div className='flex flex-row justify-center items-center'>
                         <Image src={logo.src} width={34} height={10} alt='logo' />
-                        {/* <p>
-                            TDG
-                        </p> */}
                     </div>
                     <div className='flex flex-row gap-x-10 content-center align-middle items-center'>
                         <Link target='_black' href='https://7xpfl4akzfq.typeform.com/to/FQpowPzY'>
