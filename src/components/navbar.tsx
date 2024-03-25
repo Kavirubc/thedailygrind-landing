@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import logo from '@/../public/log.png'
-
+import Link from 'next/link'
 
 export const Navbar = () => {
 
@@ -16,12 +16,16 @@ export const Navbar = () => {
                         </p> */}
                     </div>
                     <div className='flex flex-row gap-x-10 content-center align-middle items-center'>
+                        <Link target='_black' href='https://7xpfl4akzfq.typeform.com/to/FQpowPzY'>
+                            <div className='text-slate-600 hover:text-slate-900 cursor-pointer hover:underline'>
+                                Join Waitlist
+                            </div>
+                        </Link>
+                        <Link target='_black' href='https://lu.ma/thedailygrind'>
                         <div className='text-slate-600 hover:text-slate-900 cursor-pointer hover:underline'>
-                            Join Waitlist
+                            Subscribe on Luma
                         </div>
-                        <div className='text-slate-600 hover:text-slate-900 cursor-pointer hover:underline'>
-                            Luma
-                        </div>
+                        </Link>
                     </div>
                 </div>
             </nav>
