@@ -4,7 +4,7 @@ export const Navbar = () => {
 
     return (
         <div>
-            <nav className="border py-5 bg-slate-50 top-0">
+            <nav className="border py-5 bg-slate-50 top-0 ">
                 <div className='px-16 flex flex-row justify-between'>
                     <div>
                         TDG

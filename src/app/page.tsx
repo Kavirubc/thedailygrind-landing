@@ -9,14 +9,15 @@ export default function Home() {
     <>
       <head>
         <head>
-
           <link rel="icon" href={logo.src} />
         </head>
       </head>
-      <body>
-        <Navbar />
-        <Herosec />
+      <body className="">
+        <div className="fixed w-full">
+          <Navbar />
+        </div>
 
+        <Herosec />
       </body>
 
     </>
