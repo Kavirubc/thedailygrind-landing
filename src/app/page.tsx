@@ -1,7 +1,7 @@
 import { Herosec } from "@/components/herosec";
 import { Navbar } from "@/components/navbar";
 import Image from "next/image";
-import logo from "@/../public/hero1.png";
+import logo from "@/../public/log.png";
 
 
 export default function Home() {
