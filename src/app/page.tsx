@@ -1,3 +1,4 @@
+'use client'
 import { Herosec } from "@/components/herosec";
 import { Navbar } from "@/components/navbar";
 import logo from "../../public/logo.png";
