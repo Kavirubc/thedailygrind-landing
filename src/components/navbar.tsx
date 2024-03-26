@@ -11,7 +11,7 @@ export const Navbar = () => {
 
     return (
         <div>
-            <nav className=" py-3 bg-white/50 backdrop-blur top-0 z-50 relative">
+            <nav className=" py-3 bg-white top-0 z-50 relative">
                 <div className='px-5 md:px-16 flex flex-row justify-between items-center text-sm'>
                     <Link href='/'>
                         <div className='flex flex-row justify-between items-center'>
@@ -25,7 +25,7 @@ export const Navbar = () => {
                             </button>
                         </div>
                         <div className={`${isMenuOpen ? 'flex' : 'hidden'
-                            } absolute flex-col top-full left-0 w-full  md:static md:flex md:flex-row md:gap-x-10 content-center align-middle items-center`}>
+                            } absolute flex-col top-full left-0 w-full bg-white  md:static md:flex md:flex-row md:gap-x-10 content-center align-middle items-center`}>
                             <Link target='_blank' href='https://7xpfl4akzfq.typeform.com/to/FQpowPzY'>
                                 <div className='text-slate-600 hover:text-slate-900 cursor-pointer hover:underline px-4 py-2 md:py-0' >
                                     Waitlist
