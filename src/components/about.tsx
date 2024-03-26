@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import hero from '@/../public/hero1.png';
+import hero from '@/../public/herocap.png';
 import { IconArrowUpRight } from "@tabler/icons-react";
 import Link from 'next/link';
 
@@ -10,7 +10,9 @@ export const About = () => {
         <main className='flex bg-white flex-col min-h-screen justify-center items-center text-center px-4 sm:px-6 lg:px-8'>
             <div className='max-w-4xl w-full'>
                 <div className='flex flex-col lg:flex-row items-center'>
-
+                    <div className='w-1/2 md:w-1/2 lg:w-1/2 mb-8 lg:mb-0 lg:hidden block'>
+                        <Image className='rounded-xl shadow-lg' src={hero} alt='Hero' layout="responsive" />
+                    </div>
                     <div className='lg:mr-10 lg:text-left'>
                         <h1 className='text-4xl sm:text-5xl font-bold'>
                             What is <br /><span className='bg-black text-white text-3xl'>The Daily Grind</span>
@@ -31,7 +33,7 @@ export const About = () => {
                             </p>
                         </div>
                     </div>
-                    <div className='w-1/2 md:w-1/2 lg:w-1/2 mb-8 lg:mb-0'>
+                    <div className='w-1/2 md:w-1/2 lg:w-1/2 mb-8 lg:mb-0 lg:block hidden'>
                         <Image className='rounded-xl shadow-lg' src={hero} alt='Hero' layout="responsive" />
                     </div>
                 </div>
