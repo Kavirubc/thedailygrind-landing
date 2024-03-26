@@ -3,6 +3,7 @@ import { Herosec } from "@/components/herosec";
 import { Navbar } from "@/components/navbar";
 import logo from "../../public/logo.png";
 import { Herosecnew } from "@/components/herosecnew";
+import { About } from "@/components/about";
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
           <Navbar />
         </div>
         <Herosecnew />
+        <About />
       </body>
     </>
   );
