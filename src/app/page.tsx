@@ -2,6 +2,7 @@
 import { Herosec } from "@/components/herosec";
 import { Navbar } from "@/components/navbar";
 import logo from "../../public/logo.png";
+import { Herosecnew } from "@/components/herosecnew";
 
 
 export default function Home() {
@@ -14,7 +15,7 @@ export default function Home() {
         <div className="fixed w-full">
           <Navbar />
         </div>
-        <Herosec />
+        <Herosecnew />
       </body>
     </>
   );
