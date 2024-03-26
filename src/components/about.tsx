@@ -7,7 +7,7 @@ import Link from 'next/link';
 export const About = () => {
 
     return (
-        <main className='flex bg-white flex-col min-h-screen justify-center items-center text-center px-4 sm:px-6 lg:px-8'>
+        <main className='flex bg-white flex-col min-h-screen justify-center items-center text-center px-4 sm:px-6 gradient-background lg:px-8'>
             <div className='max-w-4xl w-full'>
                 <div className='flex flex-col lg:flex-row items-center'>
                     <div className='w-1/2 md:w-1/2 lg:w-1/2 mb-8 lg:mb-0 lg:hidden block'>
