@@ -10,7 +10,7 @@ export const Herosec = () => {
             <div className='max-w-4xl w-full'>
                 <div className='flex flex-col lg:flex-row items-center'>
                     <div className='w-1/2 md:w-1/2 lg:w-1/2 mb-8 lg:mb-0'>
-                        <Image className='rounded-xl shadow-lg' src={hero} alt='Hero' layout="responsive" />
+                        <Image className='rounded-xl shadow-lg' src={hero} alt='Hero' />
                     </div>
                     <div className='lg:ml-10 lg:text-left'>
                         <h1 className='text-4xl sm:text-5xl font-bold'>

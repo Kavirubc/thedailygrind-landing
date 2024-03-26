@@ -16,7 +16,7 @@ export const About = () => {
                             What is <br /><span className='bg-black text-white text-3xl'>The Daily Grind</span>
                         </h1>
                         <p className='text-base max-w-2xl mb-5 mt-5' >
-                            We provide you with tools and support to enhance your focus and growth through daily focus sessions, expert-led learning opportunities, and personalized tools tailored to your priorities.
+                            We provide you with tools and support to enhance your focus and growth through <span className='text-xl  bg-pink-300 rounded px-1 text-black'>daily focus sessions</span>, expert-led learning opportunities, and personalized tools tailored to your priorities.
                         </p>
                         <div className='flex flex-row py-4 justify-center lg:justify-start'>
                             <Link target='_blank' href='https://7xpfl4akzfq.typeform.com/to/FQpowPzY'>

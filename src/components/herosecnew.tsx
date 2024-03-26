@@ -10,13 +10,13 @@ export const Herosecnew = () => {
             <div className='max-w-4xl w-full'>
                 <div className='flex flex-col lg:flex-row items-center'>
                     <div className='w-1/2 md:w-1/2 lg:w-1/2 mb-8 lg:mb-0'>
-                        <Image className='rounded-xl shadow-lg' src={hero} alt='Hero' layout="responsive" />
+                        <Image className='rounded-xl shadow-lg' src={hero} alt='Hero' />
                     </div>
                     <div className='lg:ml-10 lg:text-left'>
                         <h1 className='text-4xl sm:text-5xl font-bold'>
                             Welcome to the <span className='bg-black text-white'>Club</span>
                         </h1>
-                        <p className='text-base max-w-2xl mb-10 mt-5' >
+                        <p className='text-base max-w-2xl mb-5 mt-5' >
                             Join the first ever session of The Daily Grind at <br /><span className='text-lg bg-yellow-300 text-black'>9 PM on 13th April, 2024.</span> <br /> Reserve your spot now!
                         </p>
                         <div className='flex flex-row py-4 justify-center lg:justify-start'>
