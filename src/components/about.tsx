@@ -25,6 +25,11 @@ export const About = () => {
                                 </button>
                             </Link>
                         </div>
+                        <div>
+                            <p className='text-sm text-slate-400 hover:text-slate-900'>
+                                *The blog will be released soon. Stay tuned!
+                            </p>
+                        </div>
                     </div>
                     <div className='w-1/2 md:w-1/2 lg:w-1/2 mb-8 lg:mb-0'>
                         <Image className='rounded-xl shadow-lg' src={hero} alt='Hero' layout="responsive" />

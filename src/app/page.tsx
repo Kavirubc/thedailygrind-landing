@@ -16,7 +16,8 @@ export default function Home() {
         <div className="fixed w-full">
           <Navbar />
         </div>
-        <Herosecnew />
+        {/* <Herosecnew /> */}
+        <Herosec />
         <About />
       </body>
     </>
