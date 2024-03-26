@@ -12,7 +12,7 @@ export const Navbar = () => {
     return (
         <div>
             <nav className="border py-5 bg-slate-50 top-0 z-50 relative">
-                <div className='px-5 md:px-16 flex flex-row justify-between items-center'>
+                <div className='px-5 md:px-16 flex flex-row justify-between items-center text-sm'>
                     <div className='flex flex-row justify-between items-center'>
                         <Image src={logo} width={34} height={10} alt='logo' />
                     </div>

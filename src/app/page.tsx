@@ -2,6 +2,9 @@
 import { Herosec } from "@/components/herosec";
 import { Navbar } from "@/components/navbar";
 import logo from "../../public/logo.png";
+import { Herosecnew } from "@/components/herosecnew";
+import { About } from "@/components/about";
+import { Aboutme } from "@/components/aboutme";
 
 
 export default function Home() {
@@ -14,7 +17,10 @@ export default function Home() {
         <div className="fixed w-full">
           <Navbar />
         </div>
+        {/* <Herosecnew /> */}
         <Herosec />
+        <About />
+        <Aboutme />
       </body>
     </>
   );

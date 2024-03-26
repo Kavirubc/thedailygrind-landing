@@ -4,7 +4,7 @@ import hero from '@/../public/hero1.png';
 import { IconArrowUpRight } from "@tabler/icons-react";
 import Link from 'next/link';
 
-export const Herosec = () => {
+export const Herosecnew = () => {
     return (
         <main className='flex flex-col min-h-screen justify-center items-center text-center px-4 sm:px-6 lg:px-8'>
             <div className='max-w-4xl w-full'>
@@ -14,15 +14,15 @@ export const Herosec = () => {
                     </div>
                     <div className='lg:ml-10 lg:text-left'>
                         <h1 className='text-4xl sm:text-5xl font-bold'>
-                            Coming <span className='bg-black text-white'>Soon</span>
+                            Welcome to the <span className='bg-black text-white'>Club</span>
                         </h1>
-                        <p className='text-base max-w-2xl mb-10 mt-5' >
-                            Shape Your Future, Daily: Engage in Focus Sessions, Learn from Experts, and More. Tools to Help You Focus on What Matters Most to You.
+                        <p className='text-base max-w-2xl mb-5 mt-5' >
+                            Join the first ever session of The Daily Grind at <br /><span className='text-lg bg-yellow-300 text-black'>9 PM on 13th April, 2024.</span> <br /> Reserve your spot now!
                         </p>
                         <div className='flex flex-row py-4 justify-center lg:justify-start'>
                             <Link target='_blank' href='https://7xpfl4akzfq.typeform.com/to/FQpowPzY'>
                                 <button className='px-5 py-1 border border-black flex flex-row gap-x-1 hover:border-white hover:text-white hover:bg-black'>
-                                    Join waitlist <IconArrowUpRight />
+                                    Register Now <IconArrowUpRight />
                                 </button>
                             </Link>
                         </div>
