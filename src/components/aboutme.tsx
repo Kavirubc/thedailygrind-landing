@@ -21,8 +21,8 @@ export const Aboutme = () => {
                         </p>
                         <div className='flex flex-row py-4 justify-center lg:justify-start'>
                             <Link target='_blank' href='https://kh.ko-de.org/'>
-                                <button className='px-5 py-1 border border-black flex flex-row gap-x-1 hover:text-white hover:bg-violet-500'>
-                                    Portfolio <IconArrowUpRight />
+                                <button className='px-5 py-1 border border-black flex flex-row gap-x-1 hover:text-white hover:bg-violet-600'>
+                                    View Portfolio <IconArrowUpRight />
                                 </button>
                             </Link>
                         </div>
