@@ -20,6 +20,17 @@ body {
   background-color: hsl(199, 100%, 94%);
 }
 
+@layer components {
+  .gradient-background {
+    background-image: radial-gradient(circle, #989898 1px, transparent 1px);
+      background-size: 80px 80px;
+  }
+    .backdrop-blur {
+      backdrop-filter: blur(10px);
+      /* Adjust blur value as needed */
+    }
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

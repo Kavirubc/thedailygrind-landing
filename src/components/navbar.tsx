@@ -11,11 +11,13 @@ export const Navbar = () => {
 
     return (
         <div>
-            <nav className="border py-5 bg-slate-50 top-0 z-50 relative">
+            <nav className=" py-3 bg-white/50 backdrop-blur top-0 z-50 relative">
                 <div className='px-5 md:px-16 flex flex-row justify-between items-center text-sm'>
-                    <div className='flex flex-row justify-between items-center'>
-                        <Image src={logo} width={34} height={10} alt='logo' />
-                    </div>
+                    <Link href='/'>
+                        <div className='flex flex-row justify-between items-center'>
+                            <Image src={logo} width={34} height={10} alt='logo' />
+                        </div>
+                    </Link>
                     <div>
                         <div className='md:hidden'>
                             <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
@@ -23,10 +25,10 @@ export const Navbar = () => {
                             </button>
                         </div>
                         <div className={`${isMenuOpen ? 'flex' : 'hidden'
-                            } absolute flex-col top-full left-0 w-full bg-slate-50 md:static md:flex md:flex-row md:gap-x-10 content-center align-middle items-center`}>
+                            } absolute flex-col top-full left-0 w-full  md:static md:flex md:flex-row md:gap-x-10 content-center align-middle items-center`}>
                             <Link target='_blank' href='https://7xpfl4akzfq.typeform.com/to/FQpowPzY'>
                                 <div className='text-slate-600 hover:text-slate-900 cursor-pointer hover:underline px-4 py-2 md:py-0' >
-                                    Join Waitlist
+                                    Waitlist
                                 </div>
                             </Link>
                             <Link target='_blank' href='https://lu.ma/thedailygrind'>
