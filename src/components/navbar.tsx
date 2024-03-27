@@ -3,7 +3,7 @@ import Image from 'next/image';
 import React, { useState } from 'react';
 import logo from '@/../public/logo.png'; // Make sure this path is correct
 import Link from 'next/link';
-import { Menu, X } from 'lucide-react'; // Importing Lucide icons
+import { Menu, Sparkle, X } from 'lucide-react'; // Importing Lucide icons
 import { IconArrowUpRight } from "@tabler/icons-react";
 
 export const Navbar = () => {
@@ -34,7 +34,7 @@ export const Navbar = () => {
                             </Link>
                             <Link target='_blank' href='https://lu.ma/thedailygrind'>
                                 <div className='text-slate-600 hover:text-slate-900 cursor-pointer hover:underline px-4 py-2 md:py-0 flex flex-row' >
-                                    Subscribe on Luma  <IconArrowUpRight height={13} />
+                                    Follow us on Luma  <Sparkle height={13} />
                                 </div>
                             </Link>
                         </div>
