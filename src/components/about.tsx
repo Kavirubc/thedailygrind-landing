@@ -3,6 +3,7 @@ import Image from 'next/image';
 import hero from '@/../public/herocap.png';
 import { IconArrowUpRight } from "@tabler/icons-react";
 import Link from 'next/link';
+import { BookOpenCheck } from 'lucide-react';
 
 export const About = () => {
 
@@ -22,8 +23,8 @@ export const About = () => {
                         </p>
                         <div className='flex flex-row py-4 justify-center lg:justify-start'>
                             <Link target='_blank' href='https://medium.com/@kaviru'>
-                                <button className='px-5 py-1 border border-black flex flex-row gap-x-1 hover:border-white hover:text-white hover:bg-black'>
-                                    Read the Blog <IconArrowUpRight />
+                                <button className='px-5 py-1 border items-center  border-black flex flex-row gap-x-2 hover:border-white hover:text-white hover:bg-black'>
+                                    Read the Blog <BookOpenCheck height={20} />
                                 </button>
                             </Link>
                         </div>
