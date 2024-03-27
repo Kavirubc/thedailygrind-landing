@@ -17,7 +17,7 @@ export const Herosec = () => {
                             Coming <span className='bg-black text-white'>Soon</span>
                         </h1>
                         <p className='text-base max-w-2xl mb-10 mt-5' >
-                            Shape Your Future, Daily: Engage in Focus Sessions, Learn from Experts, and More. Tools to Help You Focus on What Matters Most to You.
+                            Shape Your Future, Daily. <br />Engage in Focus Sessions, Learn from Experts, and More. Tools to Help You Focus on What Matters Most to You.
                         </p>
                         <div className='flex flex-row py-4 justify-center lg:justify-start'>
                             <Link target='_blank' href='https://7xpfl4akzfq.typeform.com/to/FQpowPzY'>
