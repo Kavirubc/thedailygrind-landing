@@ -21,7 +21,7 @@ export const About = () => {
                             We provide you with tools and support to enhance your focus and growth through <span className='text-xl  bg-pink-300 rounded px-1 text-black'>daily focus sessions</span>, expert-led learning opportunities, and personalized tools tailored to your priorities.
                         </p>
                         <div className='flex flex-row py-4 justify-center lg:justify-start'>
-                            <Link target='_blank' href='https://7xpfl4akzfq.typeform.com/to/FQpowPzY'>
+                            <Link target='_blank' href='https://medium.com/@kaviru'>
                                 <button className='px-5 py-1 border border-black flex flex-row gap-x-1 hover:border-white hover:text-white hover:bg-black'>
                                     Read the Blog <IconArrowUpRight />
                                 </button>
