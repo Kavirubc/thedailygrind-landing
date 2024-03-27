@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import logo from '@/../public/logo.png'; // Make sure this path is correct
 import Link from 'next/link';
 import { Menu, X } from 'lucide-react'; // Importing Lucide icons
+import { IconArrowUpRight } from "@tabler/icons-react";
 
 export const Navbar = () => {
     // State to manage the mobile menu's visibility
@@ -25,15 +26,15 @@ export const Navbar = () => {
                             </button>
                         </div>
                         <div className={`${isMenuOpen ? 'flex' : 'hidden'
-                            } absolute flex-col top-full left-0 w-full bg-white  md:static md:flex md:flex-row md:gap-x-10 content-center align-middle items-center`}>
+                            } absolute flex-col top-full left-0 w-full bg-white pb-5 lg:pb-0 md:static md:flex md:flex-row md:gap-x-10 content-center align-middle items-center`}>
                             <Link target='_blank' href='https://7xpfl4akzfq.typeform.com/to/FQpowPzY'>
-                                <div className='text-slate-600 hover:text-slate-900 cursor-pointer hover:underline px-4 py-2 md:py-0' >
-                                    Waitlist
+                                <div className='text-slate-600 hover:text-slate-900 cursor-pointer hover:underline px-4 py-2 md:py-0 flex flex-row' >
+                                    Waitlist  <IconArrowUpRight height={13} />
                                 </div>
                             </Link>
                             <Link target='_blank' href='https://lu.ma/thedailygrind'>
-                                <div className='text-slate-600 hover:text-slate-900 cursor-pointer hover:underline px-4 py-2 md:py-0' >
-                                    Subscribe on Luma
+                                <div className='text-slate-600 hover:text-slate-900 cursor-pointer hover:underline px-4 py-2 md:py-0 flex flex-row' >
+                                    Subscribe on Luma  <IconArrowUpRight height={13} />
                                 </div>
                             </Link>
                         </div>
