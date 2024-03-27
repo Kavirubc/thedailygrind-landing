@@ -29,6 +29,9 @@ body {
       backdrop-filter: blur(10px);
       /* Adjust blur value as needed */
     }
+        .bg-purple-pink-gradient {
+          background: linear-gradient(135deg, #8a3ab9, #e9598c);
+        }
 }
 
 @layer utilities {

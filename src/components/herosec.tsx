@@ -3,6 +3,7 @@ import Image from 'next/image';
 import hero from '@/../public/hero1.png';
 import { IconArrowUpRight } from "@tabler/icons-react";
 import Link from 'next/link';
+import { CalendarCheck2 } from 'lucide-react';
 
 export const Herosec = () => {
     return (
@@ -19,10 +20,15 @@ export const Herosec = () => {
                         <p className='text-base max-w-2xl mb-10 mt-5' >
                             Shape Your Future, Daily. <br />Engage in Focus Sessions, Learn from Experts, and More. Tools to Help You Focus on What Matters Most to You.
                         </p>
-                        <div className='flex flex-row py-4 justify-center lg:justify-start'>
+                        <div className='flex flex-row py-4 justify-center lg:justify-start gap-x-3'>
                             <Link target='_blank' href='https://7xpfl4akzfq.typeform.com/to/FQpowPzY'>
-                                <button className='px-5 py-1 border border-black flex flex-row gap-x-1 hover:border-white hover:text-white hover:bg-black'>
+                                <button className='px-2 py-1 border border-black flex flex-row gap-x-1 hover:border-white hover:text-white hover:bg-black'>
                                     Join waitlist <IconArrowUpRight />
+                                </button>
+                            </Link>
+                            <Link target='_blank' href='https://lu.ma/thedailygrind'>
+                                <button className='px-5 py-1 border items-center border-black flex flex-row gap-x-1 hover:border-violet-600 hover:text-white hover:bg-purple-pink-gradient'>
+                                    Calender <CalendarCheck2 height={18} />
                                 </button>
                             </Link>
                         </div>
