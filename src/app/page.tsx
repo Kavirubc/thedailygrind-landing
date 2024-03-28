@@ -6,6 +6,7 @@ import { Herosecnew } from "@/components/herosecnew";
 import { About } from "@/components/about";
 import { Aboutme } from "@/components/aboutme";
 import { Footer } from "@/components/footer";
+import { Steps } from "@/components/steps";
 
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
         {/* <Herosecnew /> */}
         <Herosec />
         <About />
+        <Steps />
         <Aboutme />
         <Footer />
       </body>
