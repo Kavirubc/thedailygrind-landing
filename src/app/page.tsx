@@ -16,9 +16,9 @@ export default function Home() {
         <link rel="icon" href={logo.src} />
       </head>
       <body>
-        <div className="fixed w-full">
+       
           <Navbar />
-        </div>
+       
         {/* <Herosecnew /> */}
         <Herosec />
         <About />

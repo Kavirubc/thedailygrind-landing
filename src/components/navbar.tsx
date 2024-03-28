@@ -12,7 +12,7 @@ export const Navbar = () => {
 
     return (
         <div>
-            <nav className=" py-3 bg-white top-0 z-50 relative">
+            <nav className=" py-3 bg-white top-0 z-50 fixed w-full">
                 <div className='px-5 md:px-16 flex flex-row justify-between items-center text-sm'>
                     <Link href='/'>
                         <div className='flex flex-row justify-between items-center'>

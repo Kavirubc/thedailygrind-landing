@@ -2,11 +2,12 @@ import React from 'react';
 
 export const Steps = () => {
     return (
-        
+
         <main className='flex bg-green-100 flex-col min-h-screen justify-center items-center text-center px-4 sm:px-6 md:px-8'>
             <div>
                 <h1 className='text-2xl sm:text-5xl font-bold'>
-                    What we will be <br /><span className='bg-black text-white pr-1'>Doing</span>
+                    What we will be
+                    <span className='bg-black text-white pr-1'>Doing</span>
                 </h1>
             </div>
             <div className='flex flex-col md:flex-row gap-y-8 md:gap-x-12 mt-12 md:mt-32 justify-around group'>
