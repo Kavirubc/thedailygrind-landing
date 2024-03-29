@@ -22,7 +22,7 @@ export default function Home() {
         {/* <Herosecnew /> */}
         <Herosec />
         <About />
-        <Steps />
+        {/* <Steps /> */}
         <Aboutme />
         <Footer />
       </body>
