@@ -3,41 +3,42 @@ import React from 'react';
 export const Steps = () => {
     return (
 
-        <main className='flex bg-white flex-col pb-40 justify-center items-center text-center px-4 sm:px-6 md:px-8 gradient-background'>
+        <main className="flex flex-col justify-center items-center text-center bg-white px-4 py-40 gradient-background sm:px-6 md:px-8">
             <div>
-                <h1 className='text-4xl sm:text-5xl font-bold'>
+                <h1 className="font-bold text-4xl sm:text-5xl">
                     How to
                 </h1>
-                <h1 className='text-4xl mt-2 sm:text-5xl font-bold bg-black text-white '>
+                <h1 className="mt-2 font-bold text-4xl text-white bg-black sm:text-5xl">
                     Join
                 </h1>
             </div>
-            <div className='flex flex-col md:flex-row gap-y-12 md:gap-x-12 mt-32 justify-around group'>
-                <div className='shadow-md lg:w-72 w-auto min-w-48 lg:h-80 h-auto rounded-xl bg-gray-100 transition duration-300 ease-in-out transform hover:-translate-y-3 px-3 lg:px-0'>
-                    <h1 className='text-2xl sm:text-3xl font-bold mt-8'>
-                        Step 1
-                    </h1>
-                    <p className='text-base max-w-2xl mb-5 mt-5'>
-                        Join Waitlist
+            <div className="flex flex-col gap-y-12 mt-32 md:flex-row md:gap-x-12 justify-around group">
+                <div className="transition duration-300 ease-in-out transform hover:-translate-y-3 shadow-md w-auto min-w-48 lg:w-72 h-auto lg:h-80 rounded-xl bg-gray-100 px-3 lg:px-0">
+                    <h2 className="mt-8 font-bold text-2xl sm:text-3xl ">
+                        Step 1: Join Waitlist
+                    </h2>
+                    <p className="mt-5 mb-5 max-w-2xl text-base">
+                        Start your journey by signing up on our waitlist.
                     </p>
                 </div>
-                <div className='shadow-md lg:w-72 w-auto min-w-48 lg:h-80 h-auto rounded-xl bg-gray-100 transition duration-300 ease-in-out transform hover:-translate-y-3 px-3 lg:px-0'>
-                    <h1 className='text-2xl sm:text-3xl font-bold mt-8'>
-                        Step 2
-                    </h1>
-                    <p className='text-base max-w-2xl mb-5 mt-5'>
-                        Subscribe Calendar
+                <div className="transition duration-300 ease-in-out transform hover:-translate-y-3 shadow-md w-auto min-w-48 lg:w-72 h-auto lg:h-80 rounded-xl bg-gray-100 px-3 lg:px-0">
+                    <h2 className="mt-8 font-bold text-2xl sm:text-3xl">
+                        Step 2: Subscribe
+                    </h2>
+                    <p className="mt-5 mb-5 max-w-2xl text-base">
+                        Keep up-to-date by subscribing to our event calendar.
                     </p>
                 </div>
-                <div className='shadow-md lg:w-72 w-auto min-w-48 lg:h-80 h-auto rounded-xl bg-gray-100 transition duration-300 ease-in-out transform hover:-translate-y-3 px-3 lg:px-0'>
-                    <h1 className='text-2xl sm:text-3xl font-bold mt-8'>
-                        Step 3
-                    </h1>
-                    <p className='text-base max-w-2xl mb-5 mt-5'>
-                        Register for the Event
+                <div className="transition duration-300 ease-in-out transform hover:-translate-y-3 shadow-md w-auto min-w-48 lg:w-72 h-auto lg:h-80 rounded-xl bg-gray-100 px-3 lg:px-0">
+                    <h2 className="mt-8 font-bold text-2xl sm:text-3xl">
+                        Step 3: Register
+                    </h2>
+                    <p className="mt-5 mb-5 max-w-2xl text-base">
+                        Complete your registration to secure your spot at the event.
                     </p>
                 </div>
             </div>
         </main>
+
     );
 };
