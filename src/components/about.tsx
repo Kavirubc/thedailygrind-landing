@@ -30,7 +30,7 @@ export const About = () => {
                         </div>
                         <div>
                             <p className='text-sm text-slate-400 hover:text-slate-900'>
-                                *The blog will be released soon. Stay tuned!
+                                *The Daily Grind - Latest blog
                             </p>
                         </div>
                     </div>
