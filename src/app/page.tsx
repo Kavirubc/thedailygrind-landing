@@ -6,6 +6,7 @@ import { Herosecnew } from "@/components/herosecnew";
 import { About } from "@/components/about";
 import { Aboutme } from "@/components/aboutme";
 import { Footer } from "@/components/footer";
+import { Steps } from "@/components/steps";
 
 
 export default function Home() {
@@ -15,12 +16,13 @@ export default function Home() {
         <link rel="icon" href={logo.src} />
       </head>
       <body>
-        <div className="fixed w-full">
+       
           <Navbar />
-        </div>
+       
         {/* <Herosecnew /> */}
         <Herosec />
         <About />
+        {/* <Steps /> */}
         <Aboutme />
         <Footer />
       </body>

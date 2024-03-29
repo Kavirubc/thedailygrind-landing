@@ -28,7 +28,7 @@ export const Herosec = () => {
                             </Link>
                             <Link target='_blank' href='https://lu.ma/thedailygrind'>
                                 <button className='px-5 py-1 border items-center border-black flex flex-row gap-x-1 hover:border-violet-600 hover:text-white hover:bg-purple-pink-gradient'>
-                                    Calender <CalendarCheck2 height={18} />
+                                    Calendar <CalendarCheck2 height={18} />
                                 </button>
                             </Link>
                         </div>
