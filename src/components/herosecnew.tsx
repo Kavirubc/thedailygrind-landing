@@ -14,11 +14,14 @@ export const Herosecnew = () => {
                         <Image className='rounded-xl shadow-lg' src={hero} alt='Hero' />
                     </div>
                     <div className='lg:ml-10 lg:text-left'>
-                        <h1 className='text-4xl sm:text-5xl font-bold'>
-                            Welcome to the <span className='bg-black text-white'>Club</span>
+                        <h1 className='text-4xl sm:text-5xl font-bold '>
+                            Welcome to the
+                        </h1>
+                        <h1 className='text-4xl sm:text-7xl font-bold bg-black text-white '>
+                            Daily Grind
                         </h1>
                         <p className='text-base max-w-2xl mb-5 mt-5' >
-                            Join the first ever session of The Daily Grind at <br /><span className='text-lg bg-yellow-300 text-black'>9 PM on 13th April, 2024.</span> <br /> Reserve your spot now!
+                            Join the first session of The Daily Grind at <br /><span className='text-lg bg-yellow-300 text-black font-semibold'>9 PM on 13th April, 2024.</span> <br /> Reserve your spot now!
                         </p>
                         <div className='flex flex-row py-4 justify-center lg:justify-start gap-x-3'>
                             <Link target='_blank' href='https://lu.ma/thedailygrind1'>
