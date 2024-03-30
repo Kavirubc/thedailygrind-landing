@@ -16,11 +16,11 @@ export default function Home() {
         <link rel="icon" href={logo.src} />
       </head>
       <body>
-       
-          <Navbar />
-       
-        {/* <Herosecnew /> */}
-        <Herosec />
+
+        <Navbar />
+
+        <Herosecnew />
+        {/* <Herosec /> */}
         <About />
         {/* <Steps /> */}
         <Aboutme />
