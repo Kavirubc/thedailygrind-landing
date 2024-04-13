@@ -7,6 +7,8 @@ import { About } from "@/components/about";
 import { Aboutme } from "@/components/aboutme";
 import { Footer } from "@/components/footer";
 import { Steps } from "@/components/steps";
+import { Calendar } from "@/components/calendar";
+import { Reviews } from "@/components/reviews";
 
 
 export default function Home() {
@@ -22,7 +24,9 @@ export default function Home() {
         <Herosecnew />
         {/* <Herosec /> */}
         <About />
+        <Calendar />
         <Steps />
+        <Reviews />
         <Aboutme />
         <Footer />
       </body>
