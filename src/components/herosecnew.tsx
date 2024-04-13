@@ -17,11 +17,11 @@ export const Herosecnew = () => {
                         <h1 className='text-4xl sm:text-5xl font-bold '>
                             Welcome to the
                         </h1>
-                        <h1 className='text-4xl sm:text-7xl font-bold bg-black text-white '>
+                        <h1 className='text-4xl sm:text-6xl font-bold bg-black text-white '>
                             Daily Grind
                         </h1>
                         <p className='text-base max-w-2xl mb-5 mt-5' >
-                            Join the first session of The Daily Grind at <br /><span className='text-lg bg-yellow-300 text-black font-semibold'>9 PM on Friday, 12th April 2024.</span> <br /> Reserve your spot now!
+                            Join the first <span className='text-lg bg-yellow-300 text-black font-semibold'> Daily Review session </span> Daily Review session  of The Daily Grind at <br /><span className='text-lg bg-yellow-300 text-black font-semibold'>9 PM on Sunday, 14th April 2024.</span> <br /> Reserve your spot now!
                         </p>
                         <div className='flex flex-row py-4 justify-center lg:justify-start gap-x-3'>
                             <Link target='_blank' href='https://lu.ma/thedailygrind01'>
