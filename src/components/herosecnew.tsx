@@ -24,7 +24,7 @@ export const Herosecnew = () => {
                             Join the first session of The Daily Grind at <br /><span className='text-lg bg-yellow-300 text-black font-semibold'>9 PM on Friday, 12th April 2024.</span> <br /> Reserve your spot now!
                         </p>
                         <div className='flex flex-row py-4 justify-center lg:justify-start gap-x-3'>
-                            <Link target='_blank' href='https://lu.ma/thedailygrind1'>
+                            <Link target='_blank' href='https://lu.ma/thedailygrind01'>
                                 <button className='px-2 py-1 border border-black flex flex-row gap-x-1 hover:border-white hover:text-white hover:bg-black'>
                                     Register Now <IconArrowUpRight />
                                 </button>
