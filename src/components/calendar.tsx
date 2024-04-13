@@ -7,7 +7,7 @@ export const Calendar = () => {
                 Subscribe us on <br /><span className='bg-black text-white text-3xl'>LU.MA</span>
             </h1>
             <iframe
-            className='rounded-xl shadow-lg shadow-cyan-100 max-w-sm md:max-w-md lg:max-w-5xl'
+            className='rounded-xl shadow-lg shadow-violet-100 max-w-sm md:max-w-md lg:max-w-5xl'
                 src="https://lu.ma/embed/calendar/cal-eIHkrf3p9WieHOL/events?lt=light"
                 width="700"
                 height="450"
