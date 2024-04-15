@@ -29,7 +29,7 @@ export const Herosecnew = () => {
                                     Register Now <IconArrowUpRight />
                                 </button>
                             </Link>
-                            <Link target='_blank' href='https://lu.ma/thedailygrind'>
+                            <Link target='_blank' href='https://www.google.com/calendar/render?cid=http%3A%2F%2Fapi.lu.ma%2Fics%2Fget%3Fentity%3Dcalendar%26id%3Dcal-eIHkrf3p9WieHOL'>
                                 <button className='px-5 py-1 border items-center border-black flex flex-row gap-x-1 hover:border-violet-600 hover:text-white hover:bg-purple-pink-gradient'>
                                     Calendar <CalendarCheck2 height={18} />
                                 </button>
