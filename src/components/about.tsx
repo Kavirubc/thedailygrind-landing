@@ -21,10 +21,15 @@ export const About = () => {
                         <p className='text-base max-w-2xl mb-5 mt-5' >
                             We provide you with tools and support to enhance your focus and growth through <span className='text-xl  bg-pink-300 rounded px-1 text-black'>daily focus sessions</span>, expert-led learning opportunities, and personalized tools tailored to your priorities.
                         </p>
-                        <div className='flex flex-row py-4 justify-center lg:justify-start'>
+                        <div className='flex flex-row py-4 justify-center lg:justify-start gap-3'>
                             <Link target='_blank' href='https://medium.com/@kaviru'>
                                 <button className='px-5 py-1 border items-center  border-black flex flex-row gap-x-2 hover:border-white hover:text-white hover:bg-black'>
                                     Read the Blog <Newspaper height={18} />
+                                </button>
+                            </Link>
+                            <Link target='_blank' href='https://forms.gle/rZMSiVTYo7ySoXUY8'>
+                                <button className='px-5 py-1 border items-center  border-black flex flex-row gap-x-2 hover:border-white hover:text-white hover:bg-black'>
+                                    Weekly Newsletter<Newspaper height={18} />
                                 </button>
                             </Link>
                         </div>
