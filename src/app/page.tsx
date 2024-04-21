@@ -24,7 +24,9 @@ export default function Home() {
         <Herosecnew />
         {/* <Herosec /> */}
         <About />
+        <div id="calendar">
         <Calendar />
+        </div>
         <Steps />
         <Reviews />
         <Aboutme />
