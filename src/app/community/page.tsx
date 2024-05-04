@@ -18,20 +18,20 @@ export default function Home() {
     if (isSignedIn) {
         return (
 
-<>
+            <>
                 <Navbar />
                 <main className=" flex flex-col min-h-screen justify-center items-center text-center px-4 sm:px-6 lg:px-8">
-                
 
-                Welcome to community..
-                <br />
-                Coming soon
 
-                <div>
+                    Welcome to community..
+                    <br />
+                    Coming soon
+
+                    <div>
                         <SignedIn />
                         <SignedOut />
-                </div>
-            </main>
+                    </div>
+                </main>
             </>
         );
 
@@ -43,7 +43,7 @@ export default function Home() {
                 Welcome to community..
                 <br />
                 Please sign in for more details..
-                <SignInButton mode="modal">
+                <SignInButton mode="modal" fallbackRedirectUrl="/community">
                     <button className="mt-5 border border-secondary bg-white px-4 py-1.5 text-base hover:text-white hover:bg-black">
                         <span>Sign in</span>
                     </button>
