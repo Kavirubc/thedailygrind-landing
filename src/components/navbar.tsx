@@ -5,9 +5,14 @@ import logo from '@/../public/logo.png'; // Make sure this path is correct
 import Link from 'next/link';
 import { Menu, Sparkle, X } from 'lucide-react'; // Importing Lucide icons
 import { IconArrowUpRight } from "@tabler/icons-react";
-import { UserButton } from '@clerk/nextjs';
+import { ClerkProvider, SignInButton, SignedIn, SignedOut, UserButton } from '@clerk/nextjs'
+import { useUser } from "@clerk/nextjs";
+
+
+
 
 export const Navbar = () => {
+    const { isSignedIn, user } = useUser();
     // State to manage the mobile menu's visibility
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -27,7 +32,7 @@ export const Navbar = () => {
                             </button>
                         </div>
                         <div className={`${isMenuOpen ? 'flex' : 'hidden'
-                            } absolute flex-col top-full left-0 w-full bg-white pb-5 lg:pb-0 md:static md:flex md:flex-row md:gap-x-10 content-center align-middle items-center z-50`}>
+                            } absolute flex-col top-full left-0 w-full bg-white pb-5 md:pb-0 md:static md:flex md:flex-row md:gap-x-10 content-center align-middle items-center z-50`}>
                             <Link target='_blank' href='https://7xpfl4akzfq.typeform.com/to/FQpowPzY'>
                                 <div className='text-slate-600 hover:text-slate-900 cursor-pointer hover:underline px-4 py-2 md:py-0 flex flex-row' >
                                     Waitlist  <IconArrowUpRight height={13} />
@@ -38,7 +43,24 @@ export const Navbar = () => {
                                     Follow us on Luma  <Sparkle height={13} />
                                 </div>
                             </Link>
-                            <UserButton />
+                            <Link href='/community'>
+                                <div className='text-slate-600 hover:text-slate-900 cursor-pointer hover:underline px-4 py-2 md:py-0 flex flex-row' >
+                                    Community
+                                </div>
+                            </Link>
+                            {isSignedIn ? (
+                                <div className='text-slate-600 hover:text-slate-900 cursor-pointer hover:underline px-4 py-2 md:py-0 flex flex-row' >
+                                    <UserButton />
+                                </div>
+                            ) : (
+                                <div className='text-slate-600 hover:text-slate-900 cursor-pointer  px-4 py-2 md:py-0 flex flex-row' >
+                                    <SignInButton mode="modal">
+                                        <button className="rounded-full border border-secondary bg-transparent px-4 py-1.5 text-base hover:text-white hover:bg-black">
+                                            <span>Sign in</span>
+                                        </button>
+                                    </SignInButton>
+                                </div>
+                            )}
                         </div>
                     </div>
                 </div>
