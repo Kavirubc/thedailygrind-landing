@@ -14,10 +14,10 @@ import { Reviews } from "@/components/reviews";
 export default function Home() {
   return (
     <>
-      <head>
-        <link rel="icon" href={logo.src} />
-      </head>
-      <body>
+      
+
+      <main>
+
 
         <Navbar />
 
@@ -25,13 +25,13 @@ export default function Home() {
         {/* <Herosec /> */}
         <About />
         <div id="calendar">
-        <Calendar />
+          <Calendar />
         </div>
         <Steps />
         <Reviews />
         <Aboutme />
         <Footer />
-      </body>
+      </main>
     </>
   );
 }

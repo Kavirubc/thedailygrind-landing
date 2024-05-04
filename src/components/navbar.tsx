@@ -5,6 +5,7 @@ import logo from '@/../public/logo.png'; // Make sure this path is correct
 import Link from 'next/link';
 import { Menu, Sparkle, X } from 'lucide-react'; // Importing Lucide icons
 import { IconArrowUpRight } from "@tabler/icons-react";
+import { UserButton } from '@clerk/nextjs';
 
 export const Navbar = () => {
     // State to manage the mobile menu's visibility
@@ -37,6 +38,7 @@ export const Navbar = () => {
                                     Follow us on Luma  <Sparkle height={13} />
                                 </div>
                             </Link>
+                            <UserButton />
                         </div>
                     </div>
                 </div>
