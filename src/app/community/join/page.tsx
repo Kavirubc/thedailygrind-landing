@@ -77,7 +77,7 @@ function Page() {
                     Join waitlist
                 </h1>
 
-                <form className="mt-20 mb-20 flex flex-col" onSubmit={handleOnSubmit}>
+                <form className="mt-20 mb-20 flex flex-col " onSubmit={handleOnSubmit}>
                     <label htmlFor="email" className="mb-2">
                         Enter your email.
                     </label>
@@ -102,7 +102,7 @@ function Page() {
 
                     <button
                         type="submit"
-                        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-8 rounded"
+                        className="px-2 py-1 border border-black flex flex-row gap-x-1 hover:border-white hover:text-white hover:bg-black"
                     >
                         Submit
                     </button>
