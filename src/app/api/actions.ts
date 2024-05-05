@@ -55,7 +55,7 @@ export async function taskSubmit(formData: any) {
             lname: formData.lname,
             email: formData.email,
             post: formData.post,
-            created: new Date(new Date().getTime() + (5.5 * 60 * 60 * 1000))
+            created: new Date(new Date().getTime())
         };
 
         const db = await getDbConnection();
