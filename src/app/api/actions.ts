@@ -51,8 +51,11 @@ export async function taskSubmit(formData: any) {
         if (exists) throw new Error("User already exists");
 
         const newSubmission = {
+            name: formData.name,
+            lname: formData.lname,
             email: formData.email,
             post: formData.post,
+            created: new Date(new Date().getTime() + (5.5 * 60 * 60 * 1000))
         };
 
         const db = await getDbConnection();

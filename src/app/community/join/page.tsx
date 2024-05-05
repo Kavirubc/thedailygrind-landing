@@ -1,8 +1,10 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { taskSubmit } from "@/app/api/actions";
+import { useUser } from "@clerk/nextjs";
 
 import Swal from "sweetalert2";
+import { Navbar } from "@/components/navbar";
 
 function Page() {
     const [fileError, setFileError] = useState("");
@@ -12,11 +14,16 @@ function Page() {
         error: false,
     });
 
+    const { isLoaded, user } = useUser();
+
+
 
     const handleOnSubmit = async (e: any) => {
         e.preventDefault();
 
         const formData = {
+            name: user?.firstName,
+            lname: user?.lastName,
             email: e.target.email.value,
             post: e.target.post.value,
         };
@@ -63,34 +70,33 @@ function Page() {
 
     return (
         <>
-            <main className="flex flex-col items-center justify-center text-white font-sans mx-4 md:mx-0 mb-10 w-full min-h-screen">
+            <Navbar />
+            <main className="flex flex-col items-center justify-center text-black font-sans mx-4 md:mx-0 mb-10 w-full min-h-screen">
+               
                 <h1 className="text-3xl md:text-4xl font-bold text-center pt-36 pb-16">
-                    Task 1 Submission
+                    Join waitlist
                 </h1>
-
-
-
 
                 <form className="mt-20 mb-20 flex flex-col" onSubmit={handleOnSubmit}>
                     <label htmlFor="email" className="mb-2">
-                        Enter you email
+                        Enter your email.
                     </label>
                     <input
                         name="email"
                         type="email"
                         placeholder="Email"
-                        className="py-2 px-4 border border-white mb-3 text-black"
+                        className="py-2 px-4 border border-black mb-3 text-black"
                         required
                     />
 
-                    <label htmlFor="Post" className="mb-2">
-                        Enter post
+                    <label htmlFor="post" className="mb-2">
+                        Enter reason for joining.
                     </label>
                     <input
                         name="post"
                         type="text"
-                        placeholder="post"
-                        className="py-2 px-4 border border-white mb-3 text-black"
+                        placeholder="Reason"
+                        className="pt-2 pb-5 px-4 border border-black mb-3 text-black"
                         required
                     />
 
@@ -103,6 +109,7 @@ function Page() {
                     {fileError && <p className="text-red-500">{fileError}</p>}
                 </form>
             </main>
+
         </>
     );
 }
