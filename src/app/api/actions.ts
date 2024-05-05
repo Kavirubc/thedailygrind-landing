@@ -67,3 +67,9 @@ export async function taskSubmit(formData: any) {
         throw err;
     }
 }
+
+//create a new function to get all the submissions
+export async function getAllSubmissions() {
+    const db = await getDbConnection();
+    return db.collection("test").find().toArray();
+}
