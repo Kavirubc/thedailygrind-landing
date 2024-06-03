@@ -23,7 +23,7 @@ export const Herosecnew = () => {
                         <p className='text-base max-w-2xl mb-5 mt-5' >
                             Join the <span className='text-lg bg-yellow-300 text-black font-semibold'> Weekly Review sessions </span> of The Daily Grind at <br /><span className='text-lg bg-yellow-300 text-black font-semibold'>9 PM, every Sunday</span> <br /> Reserve your spot now!
                         </p>
-                        <div className='flex flex-col py-4 justify-center lg:justify-start gap-y-1'>
+                        <div className='flex flex-col py-4 justify-center lg:justify-center items-center gap-y-1'>
                             <Link target='_blank' href='https://lu.ma/thedailygrind'>
                                 <button className='px-2 py-1 border border-black flex flex-row gap-x-1 hover:border-white hover:text-white hover:bg-black'>
                                     Register Now <IconArrowUpRight />
