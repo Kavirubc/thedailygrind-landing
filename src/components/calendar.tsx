@@ -17,6 +17,11 @@ export const Calendar = () => {
                 aria-hidden={false}
                 tabIndex={0}
             ></iframe>
+            <div className='mt-4'>
+                            <p className='text-sm text-slate-400 hover:text-slate-900'>
+                                *Events will be appearing here.
+                            </p>
+                        </div>
         </main>
     )
 }

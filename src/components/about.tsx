@@ -19,25 +19,25 @@ export const About = () => {
                             What is <br /><span className='bg-black text-white text-3xl'>The Daily Grind</span>
                         </h1>
                         <p className='text-base max-w-2xl mb-5 mt-5' >
-                            We provide you with tools and support to enhance your focus and growth through <span className='text-xl  bg-pink-300 rounded px-1 text-black'>daily focus sessions</span>, expert-led learning opportunities, and personalized tools tailored to your priorities.
+                            We provide you with tools and support to enhance your focus and growth through <span className='text-xl  bg-pink-300 rounded px-1 text-black'>weekly focus sessions</span>, expert-led learning opportunities, and personalized tools tailored to your priorities.
                         </p>
                         <div className='flex flex-row py-4 justify-center lg:justify-start gap-3'>
                             <Link target='_blank' href='https://medium.com/@kaviru'>
                                 <button className='px-5 py-1 border items-center  border-black flex flex-row gap-x-2 hover:border-white hover:text-white hover:bg-black'>
-                                    Read the Blog <Newspaper height={18} />
+                                   Blog <Newspaper height={18} />
                                 </button>
                             </Link>
-                            <Link target='_blank' href='https://forms.gle/rZMSiVTYo7ySoXUY8'>
+                            <Link target='_blank' href='https://www.blog.kh.ko-de.org/'>
                                 <button className='px-5 py-1 border items-center  border-black flex flex-row gap-x-2 hover:border-white hover:text-white hover:bg-black'>
-                                    Weekly Newsletter<Newspaper height={18} />
+                                    Newsletter<Newspaper height={18} />
                                 </button>
                             </Link>
                         </div>
-                        <div>
+                        {/* <div>
                             <p className='text-sm text-slate-400 hover:text-slate-900'>
                                 *The Daily Grind - Latest blog
                             </p>
-                        </div>
+                        </div> */}
                     </div>
                     <div className='w-1/2 md:w-1/2 lg:w-1/2 mb-8 lg:mb-0 lg:block hidden'>
                         <Image className='rounded-xl shadow-lg' src={hero} alt='Hero' layout="responsive" />
