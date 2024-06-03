@@ -23,12 +23,17 @@ export const Herosecnew = () => {
                         <p className='text-base max-w-2xl mb-5 mt-5' >
                             Join the <span className='text-lg bg-yellow-300 text-black font-semibold'> Weekly Review sessions </span> of The Daily Grind at <br /><span className='text-lg bg-yellow-300 text-black font-semibold'>9 PM, every Sunday</span> <br /> Reserve your spot now!
                         </p>
-                        <div className='flex flex-row py-4 justify-center lg:justify-start gap-x-3'>
+                        <div className='flex flex-col py-4 justify-center lg:justify-start gap-y-1'>
                             <Link target='_blank' href='https://lu.ma/thedailygrind'>
                                 <button className='px-2 py-1 border border-black flex flex-row gap-x-1 hover:border-white hover:text-white hover:bg-black'>
                                     Register Now <IconArrowUpRight />
                                 </button>
                             </Link>
+                            <div>
+                            <p className='text-sm text-slate-400 hover:text-slate-900'>
+                                *You will get all your updates through Luma.
+                            </p>
+                        </div>
                             {/* <Link target='_blank' href='https://www.google.com/calendar/render?cid=http%3A%2F%2Fapi.lu.ma%2Fics%2Fget%3Fentity%3Dcalendar%26id%3Dcal-eIHkrf3p9WieHOL'>
                                 <button className='px-5 py-1 border items-center border-black flex flex-row gap-x-1 hover:border-violet-600 hover:text-white hover:bg-purple-pink-gradient'>
                                     Calendar <CalendarCheck2 height={18} />
