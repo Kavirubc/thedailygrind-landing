@@ -9,6 +9,7 @@ import { ClerkProvider, SignInButton, SignedIn, SignedOut, UserButton } from '@c
 import { User } from "lucide-react";
 import Link from "next/link";
 import { IconArrowUpRight } from "@tabler/icons-react";
+import Forum from "./components/forum";
 
 
 
@@ -22,7 +23,8 @@ export default function Home() {
 
             <>
                 <Navbar />
-                <main className=" flex flex-col min-h-screen justify-center items-center text-center px-4 sm:px-6 lg:px-8">
+                <Forum/>
+                {/* <main className=" flex flex-col min-h-screen justify-center items-center text-center px-4 sm:px-6 lg:px-8">
 
 
                     Welcome to community..
@@ -36,7 +38,7 @@ export default function Home() {
                             </div>  
                         </Link>
                     </button>
-                </main>
+                </main> */}
             </>
         );
 

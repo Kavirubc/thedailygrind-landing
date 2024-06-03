@@ -27,7 +27,7 @@ export const About = () => {
                                     Read the Blog <Newspaper height={18} />
                                 </button>
                             </Link>
-                            <Link target='_blank' href='https://forms.gle/rZMSiVTYo7ySoXUY8'>
+                            <Link target='_blank' href='https://www.blog.kh.ko-de.org/'>
                                 <button className='px-5 py-1 border items-center  border-black flex flex-row gap-x-2 hover:border-white hover:text-white hover:bg-black'>
                                     Weekly Newsletter<Newspaper height={18} />
                                 </button>
