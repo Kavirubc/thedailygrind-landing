@@ -19,7 +19,7 @@ export const About = () => {
                             What is <br /><span className='bg-black text-white text-3xl'>The Daily Grind</span>
                         </h1>
                         <p className='text-base max-w-2xl mb-5 mt-5' >
-                            Welcome to Daily Grind! I'm Kaviru, joined by my co-host, Danidu. We offer tools and support to boost your productivity and sustainability. In our sessions, we'll <span className='text-xl  bg-pink-300 rounded px-1 text-black'> review our weekend, plan the upcoming week, and share practical advice </span> to make the most of your time.
+                            Welcome to Daily Grind! We offer tools and support to boost your productivity and sustainability. In our sessions, we'll <span className='text-xl  bg-pink-300 rounded px-1 text-black'> review our weekend, plan the upcoming week, and share practical advice </span> to make the most of your time.
                         </p>
                         <div className='flex flex-row py-4 justify-center lg:justify-start gap-3'>
                             <Link target='_blank' href='https://medium.com/@kaviru'>
