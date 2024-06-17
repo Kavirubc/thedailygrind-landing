@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import hero from '@/../public/hero1.png';
+import hero from '@/../public/logo2.png';
 import { IconArrowUpRight } from "@tabler/icons-react";
 import Link from 'next/link';
 import { CalendarCheck2 } from 'lucide-react';
@@ -21,9 +21,9 @@ export const Herosecnew = () => {
                             Daily Grind
                         </h1>
                         <p className='text-base max-w-2xl mb-5 mt-5'>
-                            Join the <span className='text-lg bg-yellow-300 text-black font-semibold'>Weekly Review sessions</span> of The Daily Grind at <br /><span className='text-lg bg-yellow-300 text-black font-semibold'>9 PM, every Sunday</span>. <br /> 
+                            Join the <span className='text-lg bg-yellow-300 text-black'>Weekly Review sessions</span> of The Daily Grind at <br /><span className='text-lg bg-yellow-300 text-black font-semibold'>9 PM, every Sunday</span>. <br /> 
                         </p>
-                        <p className='text-base max-w-xl mb-5 mt-5'>Get weekly insights, <span className='text-lg bg-yellow-300 text-black font-semibold'>productivity tips, practical advice and sustainable work habits </span> to make your week exceptional.</p>
+                        <p className='text-base max-w-xl mb-5 mt-5'>Get weekly insights, <span className='text-lg bg-yellow-300 text-black'>productivity tips, practical advice and sustainable work habits </span> to make your week exceptional.</p>
 
                         <div className='flex flex-col py-4 justify-center lg:justify-left items-left gap-y-1'>
                             <Link target='_blank' href='https://lu.ma/thedailygrind'>
