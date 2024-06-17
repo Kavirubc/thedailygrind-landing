@@ -19,7 +19,7 @@ export const About = () => {
                             What is <br /><span className='bg-black text-white text-3xl'>The Daily Grind</span>
                         </h1>
                         <p className='text-base max-w-2xl mb-5 mt-5' >
-                            We provide you with tools and support to enhance your focus and growth through <span className='text-xl  bg-pink-300 rounded px-1 text-black'>weekly focus sessions</span>, expert-led learning opportunities, and personalized tools tailored to your priorities.
+                            Welcome to Daily Grind! I'm Kaviru, joined by my co-host, Danidu. We offer tools and support to boost your productivity and sustainability. In our sessions, we'll <span className='text-xl  bg-pink-300 rounded px-1 text-black'> review our weekend, plan the upcoming week, and share practical advice </span> to make the most of your time.
                         </p>
                         <div className='flex flex-row py-4 justify-center lg:justify-start gap-3'>
                             <Link target='_blank' href='https://medium.com/@kaviru'>
@@ -27,7 +27,7 @@ export const About = () => {
                                    Blog <Newspaper height={18} />
                                 </button>
                             </Link>
-                            <Link target='_blank' href='https://www.blog.kh.ko-de.org/'>
+                            <Link target='_blank' href='https://www.blog.thedailygrind.club/'>
                                 <button className='px-5 py-1 border items-center  border-black flex flex-row gap-x-2 hover:border-white hover:text-white hover:bg-black'>
                                     Newsletter<Newspaper height={18} />
                                 </button>
