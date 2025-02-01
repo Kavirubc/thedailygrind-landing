@@ -3,48 +3,60 @@ import Image from 'next/image';
 import hero from '@/../public/logo2.png';
 import { IconArrowUpRight } from "@tabler/icons-react";
 import Link from 'next/link';
-import { CalendarCheck2 } from 'lucide-react';
 
 export const Herosecnew = () => {
     return (
-        <main className='flex flex-col min-h-screen justify-center items-center text-center px-4 sm:px-6 lg:px-8'>
-            <div className='max-w-4xl w-full'>
-                <div className='flex flex-col lg:flex-row items-center'>
-                    <div className='w-1/2 md:w-1/2 lg:w-1/2 mb-8 lg:mb-0'>
-                        <Image className='rounded-xl shadow-lg' src={hero} alt='Hero' />
+        <main className='flex flex-col min-h-screen justify-center items-center text-center px-4 sm:px-6 lg:px-8 pt-[70px]'>
+            <div className='max-w-5xl w-full'>
+                <div className='flex flex-col lg:flex-row items-center lg:items-start gap-y-8 lg:gap-x-12'>
+                    {/* Image Section */}
+                    <div className='w-full sm:w-2/3 lg:w-1/3'>
+                        <Image
+                            className='rounded-xl shadow-lg object-cover'
+                            src={hero}
+                            alt='Hero'
+                            priority
+                        />
                     </div>
-                    <div className='lg:ml-10 lg:text-left'>
-                        <h1 className='text-4xl sm:text-5xl font-bold '>
-                            Welcome to the
-                        </h1>
-                        <h1 className='text-4xl sm:text-6xl font-bold bg-black text-white '>
-                            Daily Grind
-                        </h1>
-                        <p className='text-base max-w-2xl mb-5 mt-5'>
-                            Join the <span className='text-lg bg-yellow-300 text-black'>Weekly Review sessions</span> of The Daily Grind at <br /><span className='text-lg bg-yellow-300 text-black font-semibold'>9 PM, every Sunday</span>. <br /> 
-                        </p>
-                        <p className='text-base max-w-xl mb-5 mt-5'>Get weekly insights, <span className='text-lg bg-yellow-300 text-black'>productivity tips, practical advice and sustainable work habits </span> to make your week exceptional.</p>
 
-                        <div className='flex flex-col py-4 justify-center lg:justify-left items-left gap-y-1'>
+                    {/* Text Content Section */}
+                    <div className='flex flex-col items-center lg:items-start text-center lg:text-left'>
+                        {/* Title */}
+                        <h1 className='text-3xl sm:text-4xl font-extrabold leading-tight'>
+                            The Daily Grind
+                        </h1>
+                        <h2 className='text-xl sm:text-2xl font-semibold mt-2 bg-black text-white inline-block px-3 py-1'>
+                            Season 3 is Here!
+                        </h2>
+
+                        {/* Updated Description */}
+                        <p className='text-base sm:text-base max-w-lg mt-4 leading-relaxed'>
+                            The award-winning program,
+                            <span className=' font-bold'>recognized by Sysco Labs and Global Learning Labs </span>, is back with fresh insights to help you master productivity, build lasting habits, and make every week exceptional.
+                            {/* Join us every Sunday at
+                            <span className='text-base bg-yellow-300 text-black font-semibold px-1'>9 PM</span>. */}
+                        </p>
+                        <p className='text-base sm:text-base max-w-lg mt-4 leading-relaxed'>
+                            This season brings new strategies, expert advice, and a vibrant community to keep you motivated.
+                        </p>
+
+
+                        {/* Buttons */}
+                        <div className='flex flex-col sm:flex-row gap-y-3 sm:gap-y-0 sm:gap-x-4 mt-6'>
                             <Link target='_blank' href='https://lu.ma/thedailygrind'>
-                                <button className='px-2 py-1 border border-black flex flex-row gap-x-1 hover:border-white hover:text-white hover:bg-black'>
+                                <button className='px-6 py-2 border border-black flex flex-row gap-x-2 hover:border-white hover:text-white hover:bg-black transition-all duration-300'>
                                     Register Now <IconArrowUpRight />
                                 </button>
                             </Link>
-                            <div>
-                            <p className='text-sm text-slate-400 hover:text-slate-900 mt-2'>
-                                *You will get all your updates through Luma.
-                            </p>
                         </div>
-                            {/* <Link target='_blank' href='https://www.google.com/calendar/render?cid=http%3A%2F%2Fapi.lu.ma%2Fics%2Fget%3Fentity%3Dcalendar%26id%3Dcal-eIHkrf3p9WieHOL'>
-                                <button className='px-5 py-1 border items-center border-black flex flex-row gap-x-1 hover:border-violet-600 hover:text-white hover:bg-purple-pink-gradient'>
-                                    Calendar <CalendarCheck2 height={18} />
-                                </button>
-                            </Link> */}
-                        </div>
+
+                        {/* Disclaimer */}
+                        <p className='text-xs text-slate-400 hover:text-slate-900 my-4'>
+                            *All updates will be sent via Luma.
+                        </p>
                     </div>
                 </div>
             </div>
         </main>
     );
-}
+};

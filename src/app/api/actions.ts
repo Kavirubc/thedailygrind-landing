@@ -2,12 +2,12 @@
 import { MongoClient } from "mongodb";
 
 
-const username = encodeURIComponent("kaviru");
-const password = encodeURIComponent("kaviru@BC1");
-const cluster = "tdgdb.mbsvayl.mongodb.net";
-const dbName = "tdgdb";
-const authSource = "admin";
-const authMechanism = "SCRAM-SHA-1";
+const username = encodeURIComponent(`${process.env.DB_USERNAME}`);
+const password = encodeURIComponent(`${process.env.DB_PASSWORD}`);
+const cluster = process.env.DB_CLUSTER;
+const dbName = process.env.DB_NAME;
+const authSource = process.env.DB_AUTH_SOURCE;
+const authMechanism = process.env.DB_AUTH_MECHANISM;
 
 let uri = `mongodb+srv://${username}:${password}@${cluster}/${dbName}?retryWrites=true&w=majority&authSource=${authSource}&authMechanism=${authMechanism}`;
 

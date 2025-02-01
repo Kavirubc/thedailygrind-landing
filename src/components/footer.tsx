@@ -10,7 +10,7 @@ export const Footer = () => {
                     height={15}
                 />
             </div>
-            kode24
+            <a target='_blank' href="https://www.standord.com/">{new Date().getFullYear()} standord</a>
         </main>
     )
 }

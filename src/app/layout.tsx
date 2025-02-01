@@ -26,9 +26,7 @@ export default function RootLayout({
           <link rel="icon" href={logo.src} />
         </head>
         <body>
-          <main>
-            {children}
-          </main>
+          {children}
         </body>
       </html>
     </ClerkProvider>
