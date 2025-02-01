@@ -8,7 +8,7 @@ import { Ghost, Handshake } from 'lucide-react';
 
 export const Aboutme = () => {
     return (
-        <main className='flex flex-col min-h-screen justify-center items-center text-center px-4 sm:px-6 bg-violet-100 lg:px-8'>
+        <main className='flex flex-col min-h-screen justify-center items-center text-center px-4 sm:px-6 bg-violet-100 lg:px-8 py-20'>
             <h1 className='text-3xl sm:text-5xl font-bold mb-36'>
                 About <span className='bg-black text-white px-2'>us</span>
             </h1>
