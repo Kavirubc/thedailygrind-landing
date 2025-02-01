@@ -24,7 +24,7 @@ export const Aboutme = () => {
                                 Productivity Nerd working with NextJS
                             </p>
                             <div className='flex flex-row py-4 justify-center '>
-                                <Link target='_blank' href='https://kh.ko-de.org/'>
+                                <Link target='_blank' href='https://kaviru.cc/'>
                                     <button className='px-5 py-1 border border-black flex items-center flex-row gap-x-1 hover:text-white hover:bg-violet-600'>
                                         Let&apos;s talk <Handshake height={18} />
                                     </button>

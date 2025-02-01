@@ -26,7 +26,7 @@ export const Reviews = () => {
                         </a>
                     </div>
                     <p className="font-normal text-gray-700 text-sm">
-                        Participating in The Daily Grind's weekly review sessions has greatly improved my productivity and personal growth. These sessions help me reflect on what I’ve done, recognize what worked well, and identify areas to improve. They keep me focused on my goals and help me plan for the week ahead. Being part of a group with like-minded people makes a big difference, as we share ideas, motivate each other, and stay on track together. The supportive community and regular check-ins have been key to staying productive and committed to my growth, and I highly recommend The Daily Grind to anyone looking to better themselves.
+                        Participating in The Daily Grind&apos;s weekly review sessions has greatly improved my productivity and personal growth. These sessions help me reflect on what I&apos;ve done, recognize what worked well, and identify areas to improve. They keep me focused on my goals and help me plan for the week ahead. Being part of a group with like-minded people makes a big difference, as we share ideas, motivate each other, and stay on track together. The supportive community and regular check-ins have been key to staying productive and committed to my growth, and I highly recommend The Daily Grind to anyone looking to better themselves.
                     </p>
                 </div>
 
