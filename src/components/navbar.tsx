@@ -43,11 +43,11 @@ export const Navbar = () => {
                                     Follow us on Luma  <Sparkle height={13} />
                                 </div>
                             </Link>
-                            {/* <Link href='/community'>
+                            <Link href='/feedback'>
                                 <div className='text-slate-600 hover:text-slate-900 cursor-pointer hover:underline px-4 py-2 md:py-0 flex flex-row' >
                                     Community
                                 </div>
-                            </Link> */}
+                            </Link>
                             {isSignedIn ? (
                                 <div className='text-slate-600 hover:text-slate-900 cursor-pointer hover:underline px-4 py-2 md:py-0 flex flex-row' >
                                     <UserButton />
